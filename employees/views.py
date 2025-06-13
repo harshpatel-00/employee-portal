@@ -46,7 +46,7 @@ def delete_employee(request, id):
     
 def login_view(request):
     if request.method == 'POST':
-        username = request.post['username']
+        username = request.POST['username']
         password = request.POST['password']
         
         user = authenticate(request, username=username, password=password)

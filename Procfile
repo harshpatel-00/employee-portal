@@ -1,1 +1,1 @@
-web: gunicorn employee_portal.wsgi
+web: gunicorn employee_portal.wsgi:application
