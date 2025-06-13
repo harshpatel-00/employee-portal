@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-%mkke3-f_-!!t(2st$2urh5(c=2py+1+!zonlc(m=nz(lt(16l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['employee-portal-isl9.onrender.com']
+
 
 
 # Application definition
